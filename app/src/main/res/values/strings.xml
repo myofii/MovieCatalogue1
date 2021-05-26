@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="tab1">Movie</string>
+    <string name="tab2">Tv Show</string>
+    <string name="name">name</string>
+    <string name="rating">5</string>
+    <string name="genre">genre</string>
+    <string name="desc">description</string>
+</resources>
