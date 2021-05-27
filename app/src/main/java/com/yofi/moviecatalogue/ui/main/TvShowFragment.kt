@@ -1,4 +1,4 @@
-    package com.yofi.moviecatalogue.ui.main
+package com.yofi.moviecatalogue.ui.main
 
 import android.content.Intent
 import android.os.Bundle

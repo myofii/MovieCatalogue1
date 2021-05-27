@@ -41,14 +41,10 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.LinearViewHolder>() {
                 tvRating.text = data.rating
                 tvGenre.text = data.genre
 
-//                card.setOnClickListener{
-//                    onItemClickCallback?.onItemClicked(data)
-//                }
-
                 itemView.setOnClickListener{
                     val moveIntent = Intent(itemView.context, DetailActivity::class.java)
                     moveIntent.putExtra(DetailActivity.EXTRA_ID, data.id)
-                    moveIntent.putExtra(DetailActivity.EXTRA_TYPE, if (data.id == "mov%") "MOVIE" else "TVSHOW")
+                    moveIntent.putExtra(DetailActivity.EXTRA_TYPE, data.type)
                     itemView.context.startActivity(moveIntent)
                 }
             }

@@ -7,6 +7,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov1",
+                type = "MOVIE",
                 name = "Godzilla vs. Kong",
                 year = "2021",
                 genre = "Science Fiction, Action, Drama",
@@ -19,6 +20,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov2",
+                type = "MOVIE",
                 name = "Mortal Kombat",
                 year = "2021",
                 genre = "Fantasy, Action, Adventure, Science Fiction, Thriller",
@@ -31,6 +33,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov3",
+                type = "MOVIE",
                 name = "Demon Slayer -Movie: Mugen Train",
                 year = "2020",
                 genre = "Animation, Action, Adventure, Fantasy, Drama",
@@ -43,6 +46,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov4",
+                type = "MOVIE",
                 name = "Zack Snyder's Justice League",
                 year = "2021",
                 genre = "Action, Adventure, Fantasy, Science Fiction",
@@ -55,6 +59,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov5",
+                type = "MOVIE",
                 name = "Raya and the Last Dragon",
                 year = "2021",
                 genre = "Animation, Adventure, Fantasy, Family, Action",
@@ -67,6 +72,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov6",
+                type = "MOVIE",
                 name = "Monster Hunter",
                 year = "2020",
                 genre = "Fantasy, Action, Adventure",
@@ -79,6 +85,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov7",
+                type = "MOVIE",
                 name = "Wonder Woman 1984",
                 year = "2020",
                 genre = "Fantasy, Action, Adventure",
@@ -91,6 +98,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov8",
+                type = "MOVIE",
                 name = "Tom & Jerry",
                 year = "2021",
                 genre = "Comedy, Family, Animation",
@@ -103,6 +111,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov9",
+                type = "MOVIE",
                 name = "Nobody",
                 year = "2021",
                 genre = "Action, Thriller, Crime",
@@ -115,6 +124,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "mov10",
+                type = "MOVIE",
                 name = "The Marksman",
                 year = "2021",
                 genre = "Action, Thriller, Crime",
@@ -133,6 +143,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv1",
+                type = "TVSHOW",
                 name = "The Falcon and the Winter Soldier",
                 year = "2021",
                 genre = "Sci-Fi & Fantasy, Action & Adventure, Drama, War & Politics",
@@ -145,6 +156,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv2",
+                type = "TVSHOW",
                 name = "The Good Doctor",
                 year = "2017",
                 genre = "Drama",
@@ -157,11 +169,12 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv3",
+                type = "TVSHOW",
                 name = "The Flash",
                 year = "2014",
                 genre = "Drama, Sci-Fi & Fantasy",
                 rating = "7.7",
-                desc = "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
+                desc = "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent.",
                 poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lJA2RCMfsWoskqlQhXPSLFQGXEJ.jpg"
             )
         )
@@ -169,6 +182,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv4",
+                type = "TVSHOW",
                 name = "Invincible",
                 year = "2021",
                 genre = "Animation, Action & Adventure, Drama, Sci-Fi & Fantasy",
@@ -181,6 +195,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv5",
+                type = "TVSHOW",
                 name = "Riverdale",
                 year = "2017",
                 genre = "Mystery, Drama, Crime",
@@ -193,6 +208,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv6",
+                type = "TVSHOW",
                 name = "Grey's Anatomy",
                 year = "2005",
                 genre = "Drama",
@@ -205,6 +221,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv7",
+                type = "TVSHOW",
                 name = "Haunted: Latin America",
                 year = "2021",
                 genre = "Reality",
@@ -217,6 +234,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv8",
+                type = "TVSHOW",
                 name = "Lucifer",
                 year = "2016",
                 genre = "Crime, Sci-Fi & Fantasy",
@@ -229,6 +247,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv9",
+                type = "TVSHOW",
                 name = "The Walking Dead",
                 year = "2010",
                 genre = "Action & Adventure, Drama, Sci-Fi & Fantasy",
@@ -241,6 +260,7 @@ object Dummy {
         list.add(
             DataEntity(
                 id = "tv10",
+                type = "TVSHOW",
                 name = "WandaVision",
                 year = "2021",
                 genre = "Sci-Fi & Fantasy, Mystery, Drama",

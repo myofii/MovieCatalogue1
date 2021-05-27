@@ -19,6 +19,8 @@ class DetailActivity : AppCompatActivity() {
 
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.title = "Detail Movie"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(DetailViewModel::class.java)
 
         val id = intent.getStringExtra(EXTRA_ID)
@@ -40,9 +42,14 @@ class DetailActivity : AppCompatActivity() {
                 .into(imgPoster)
             tvName.text = result.name + " ("+ result.year + ")"
             tvRating.text = result.rating
-            tvGenre.text = result.genre
+            tvGenre.text = "● "+result.genre
             tvDesc.text = result.desc
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
     companion object {

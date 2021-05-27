@@ -6,6 +6,7 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class DataEntity (
     var id: String? = null,
+    var type: String? = null,
     var name: String? = null,
     var year: String? = null,
     var rating: String? = null,
