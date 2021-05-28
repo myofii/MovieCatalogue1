@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.yofi.moviecatalogue.data.DataEntity
-import com.yofi.moviecatalogue.databinding.FragmentListBinding
 import com.yofi.moviecatalogue.databinding.ItemFilmBinding
 import com.yofi.moviecatalogue.ui.detail.DetailActivity
 

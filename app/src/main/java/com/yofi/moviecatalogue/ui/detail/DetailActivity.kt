@@ -6,8 +6,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.yofi.moviecatalogue.data.DataEntity
 import com.yofi.moviecatalogue.databinding.ActivityDetailBinding
-import com.yofi.moviecatalogue.databinding.ActivityMainBinding
-import com.yofi.moviecatalogue.ui.main.MainViewModel
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetailBinding
