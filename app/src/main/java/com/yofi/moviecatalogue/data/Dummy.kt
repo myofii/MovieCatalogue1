@@ -21,12 +21,12 @@ object Dummy {
             DataEntity(
                 id = "mov2",
                 type = "MOVIE",
-                name = "Mortal Kombat",
+                name = "The Unholy",
                 year = "2021",
-                genre = "Fantasy, Action, Adventure, Science Fiction, Thriller",
-                rating = "6.3",
-                desc = "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of Outworld in a high stakes battle for the universe.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6Wdl9N6dL0Hi0T1qJLWSz6gMLbd.jpg"
+                genre = "Horror",
+                rating = "5 .0",
+                desc = "Alice, a young hearing-impaired girl who, after a supposed visitation from the Virgin Mary, is inexplicably able to hear, speak and heal the sick. As word spreads and people from near and far flock to witness her miracles, a disgraced journalist hoping to revive his career visits the small New England town to investigate. When terrifying events begin to happen all around, he starts to question if these phenomena are the works of the Virgin Mary or something much more sinister.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4ryVgyGJzdBq8ejVIB0snxBqnyM.jpg"
             )
         )
 
@@ -34,12 +34,12 @@ object Dummy {
             DataEntity(
                 id = "mov3",
                 type = "MOVIE",
-                name = "Demon Slayer -Movie: Mugen Train",
-                year = "2020",
-                genre = "Animation, Action, Adventure, Fantasy, Drama",
-                rating = "8.4",
-                desc = "Tanjirō Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Kyōjurō Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg"
+                name = "I Am All Girls",
+                year = "2021",
+                genre = "Crime, Drama, Mystery",
+                rating = "5.7",
+                desc = "A special crimes investigator forms an unlikely bond with a serial killer to bring down a global child sex trafficking syndic",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/m6bUeV4mczG3z2YXXr5XDKPsQzv.jpg"
             )
         )
 
@@ -47,12 +47,12 @@ object Dummy {
             DataEntity(
                 id = "mov4",
                 type = "MOVIE",
-                name = "Zack Snyder's Justice League",
+                name = "Army of the Dead",
                 year = "2021",
-                genre = "Action, Adventure, Fantasy, Science Fiction",
-                rating = "8.1",
-                desc = "Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+                genre = "Action, Crime, Horror",
+                rating = "5.9",
+                desc = "Following a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble: venturing into the quarantine zone to pull off the greatest heist ever attempted.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z8CExJekGrEThbpMXAmCFvvgoJR.jpg"
             )
         )
 
@@ -60,12 +60,12 @@ object Dummy {
             DataEntity(
                 id = "mov5",
                 type = "MOVIE",
-                name = "Raya and the Last Dragon",
+                name = "The Virtuoso",
                 year = "2021",
-                genre = "Animation, Adventure, Fantasy, Family, Action",
-                rating = "7.4",
-                desc = "Long ago, in the fantasy world of Kumandra, humans and dragons lived together in harmony. But when an evil force threatened the land, the dragons sacrificed themselves to save humanity. Now, 500 years later, that same evil has returned and it’s up to a lone warrior, Raya, to track down the legendary last dragon to restore the fractured land and its divided people.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
+                genre = "Action, Crime, Thriller",
+                rating = "4.9",
+                desc = "A lonesome stranger with nerves of steel must track down and kill a rogue hitman to satisfy an outstanding debt. But the only information he's been given is a time and location where to find his quarry. No name. No description. Nothing.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg"
             )
         )
 
@@ -144,12 +144,12 @@ object Dummy {
             DataEntity(
                 id = "tv1",
                 type = "TVSHOW",
-                name = "The Falcon and the Winter Soldier",
-                year = "2021",
-                genre = "Sci-Fi & Fantasy, Action & Adventure, Drama, War & Politics",
-                rating = "7.5",
-                desc = "Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6kbAMLteGO8yyewYau6bJ683sw7.jpg"
+                name = "Lucifer",
+                year = "2016",
+                genre = "Crime, Drama, Fantasy",
+                rating = "8.1",
+                desc = "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
             )
         )
 
@@ -183,12 +183,12 @@ object Dummy {
             DataEntity(
                 id = "tv4",
                 type = "TVSHOW",
-                name = "Invincible",
-                year = "2021",
-                genre = "Animation, Action & Adventure, Drama, Sci-Fi & Fantasy",
-                rating = "8.9",
-                desc = "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father’s tutelage.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg"
+                name = "Cobra Kai",
+                year = "2018",
+                genre = "Action, Comedy, Drama",
+                rating = "8.6",
+                desc = "This Karate Kid sequel series picks up 30 years after the events of the 1984 All Valley Karate Tournament and finds Johnny Lawrence on the hunt for redemption by reopening the infamous Cobra Kai karate dojo. This reignites his old rivalry with the successful Daniel LaRusso, who has been working to maintain the balance in his life without mentor Mr. Miyagi.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4CkQvdUAtoLW3qkjWi7t1MTnW7R.jpg"
             )
         )
 
@@ -248,12 +248,12 @@ object Dummy {
             DataEntity(
                 id = "tv9",
                 type = "TVSHOW",
-                name = "The Walking Dead",
-                year = "2010",
-                genre = "Action & Adventure, Drama, Sci-Fi & Fantasy",
-                rating = "8.2",
-                desc = "Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.",
-                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rqeYMLryjcawh2JeRpCVUDXYM5b.jpg"
+                name = "Elite",
+                year = "2018",
+                genre = "Crime, Drama, Thriller",
+                rating = "7.5",
+                desc = "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+                poster = "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg"
             )
         )
 

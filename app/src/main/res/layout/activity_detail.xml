@@ -8,9 +8,11 @@
 
     <TextView
         android:id="@+id/tv_name"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="50dp"
         android:text="@string/name"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -46,9 +48,11 @@
 
     <TextView
         android:id="@+id/tv_genre"
-        android:layout_width="370dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:maxLines="3"
         android:text="@string/genre"
         android:textSize="16sp"
@@ -62,12 +66,13 @@
         android:id="@+id/desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
         android:text="@string/desc"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/tv_genre"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="@+id/tv_genre"
         app:layout_constraintTop_toBottomOf="@+id/tv_genre" />
 

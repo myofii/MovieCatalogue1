@@ -37,14 +37,14 @@ class DetailViewModelTest {
         val tvShowEntity = dummyTvShow.id?.let { viewModel.getDetailTvShowById(it) }
         assertNotNull(tvShowEntity)
         if (tvShowEntity != null) {
-            assertEquals(dummyMovie.id, tvShowEntity.id)
-            assertEquals(dummyMovie.type, tvShowEntity.type)
-            assertEquals(dummyMovie.name, tvShowEntity.name)
-            assertEquals(dummyMovie.year, tvShowEntity.year)
-            assertEquals(dummyMovie.genre, tvShowEntity.genre)
-            assertEquals(dummyMovie.rating, tvShowEntity.rating)
-            assertEquals(dummyMovie.desc, tvShowEntity.desc)
-            assertEquals(dummyMovie.poster, tvShowEntity.poster)
+            assertEquals(dummyTvShow.id, tvShowEntity.id)
+            assertEquals(dummyTvShow.type, tvShowEntity.type)
+            assertEquals(dummyTvShow.name, tvShowEntity.name)
+            assertEquals(dummyTvShow.year, tvShowEntity.year)
+            assertEquals(dummyTvShow.genre, tvShowEntity.genre)
+            assertEquals(dummyTvShow.rating, tvShowEntity.rating)
+            assertEquals(dummyTvShow.desc, tvShowEntity.desc)
+            assertEquals(dummyTvShow.poster, tvShowEntity.poster)
         }
     }
 }
